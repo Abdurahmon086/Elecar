@@ -349,8 +349,7 @@ main {
     flex-direction: column;
     align-items: center;
     background-image: url(./img/Map2.png);
-    background-position-x: 90px;
-    background-position-y: 20px;
+    background-position:center;
     background-repeat: no-repeat;
     background-size: 900px;
 }
@@ -456,7 +455,7 @@ main {
 }
 
 .sub .sub__title {
-    margin-bottom: 32px;
+    margin:0 0 32px 0;
     max-width: 312px;
 }
 
@@ -712,8 +711,7 @@ footer {
         padding-top: 56px;
         background-image: url(./img/Map.png);
         background-repeat: no-repeat;
-        background-position-x: 0px;
-        background-position-y: 40px;
+        background-position:center;
         background-size: 400px;
 
     }
@@ -807,7 +805,9 @@ footer {
     }
 
     .sub .sub__title {
+        margin: 0 auto;
         margin-bottom: 32px;
+        
         max-width: 280px;
         font-size: 20px;
     }
@@ -829,7 +829,7 @@ footer {
         min-width: 400px;
         min-height: 178px;
         background-image: url(./img/car2.png);
-        background-position: 70px 0;
+        background-position: center;
         background-repeat: no-repeat;
     }
 
@@ -852,7 +852,7 @@ footer {
     footer {
         padding: 56px 0 36px 0;
         background-size: 300px, 300px;
-        background-position-x: -70px, 170px ;
+        background-position-x: -70px, right ;
         background-position-y: 70px, 550px ;
     }
 
@@ -905,6 +905,7 @@ footer {
         margin-top: 75px;
     }
 }
+
 
 @media only screen and (max-width: 480px) {
     
@@ -1072,8 +1073,7 @@ footer {
         padding-top: 56px;
         background-image: url(./img/Map.png);
         background-repeat: no-repeat;
-        background-position-x: 0px;
-        background-position-y: 40px;
+        background-position: center;
         background-size: 400px;
 
     }
